@@ -8,7 +8,7 @@ const layout = ({children}) => {
         <div>
         <TLSidebar />
         </div>
-        <div>
+        <div className='w-full '>
         {children}
         </div>
     </SidebarProvider>

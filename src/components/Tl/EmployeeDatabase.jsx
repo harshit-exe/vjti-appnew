@@ -166,7 +166,7 @@ export default function EmployeeOverview({ deptId }) {
   }, [deptId]);
 
   return (
-    <div className="p-6 space-y-6">
+    <div className="p-6  ">
       <div className="flex justify-between items-center">
         <h1 className="text-3xl font-bold">Employee Overview</h1>
         <Dialog open={isDialogOpen} onOpenChange={handleDialogChange}>
@@ -268,9 +268,8 @@ export default function EmployeeOverview({ deptId }) {
 
 
 
-      <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-bold mb-4">Employee</h2>
-      <div className="overflow-x-auto bg-white shadow-md rounded-lg">
+      <div className=" mx-auto px-4 py-8">
+      <div className="overflow-x-auto bg-white rounded-lg">
         <table className="max-w-7xl leading-normal">
           <thead>
             <tr>
@@ -279,6 +278,9 @@ export default function EmployeeOverview({ deptId }) {
               </th>
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 Email
+              </th>
+              <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                designation
               </th>
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 Previlage
@@ -295,8 +297,11 @@ export default function EmployeeOverview({ deptId }) {
                     </div>
                   </div>
                 </td>
-                <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                <td className="px-5 py-5 border-b w-full border-gray-200 bg-white text-sm">
                   <p className="text-gray-900 whitespace-no-wrap">{item.memberId}</p>
+                </td>
+                <td className="px-5 py-5 border-b w-full border-gray-200 bg-white text-sm">
+                  <p className="text-gray-900 whitespace-no-wrap">{"Software Engineer"}</p>
                 </td>
                 <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                   <p className="text-gray-900 whitespace-no-wrap">Normal User</p>
