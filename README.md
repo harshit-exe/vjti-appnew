@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cypher Squad
 
-## Getting Started
+## Virtual VR Collaboration for Remote Workers
 
-First, run the development server:
+### Demo Users:
+- **Admin**:  
+  - **Email**: amanwebdevv@gmail.com  
+  - **Password**: 11223344
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Employee**:  
+  - **Email**: harshitnikam182005@gmail.com  
+  - **Password**: 11223344
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Live Preview:  
+[Click here to access the live preview of the platform](https://vjti-appnew.vercel.app)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### The Problem
+Remote workers face several challenges, including:
+- **Fragmented Tools**: Businesses use 8-10 tools daily, causing inefficiency (Source: Harvard Business Review).
+- **Lack of Productivity**: 59% of employees report losing productive time due to inefficient collaboration tools (Source: McKinsey).
+- **Collaboration Issues**: 52% of employees say communication challenges are their biggest productivity obstacle (Source: Slack).
+- **Stress and Burnout**: 72% of remote workers experience burnout due to lack of focus and stress management solutions (Source: Gallup).
 
-## Learn More
+### Our Solution: Circle.com
+Circle.com is a platform that connects organizations with their remote employees in a virtual environment. It offers AI-powered features to boost productivity, such as:
+- Content generation
+- Automated task scheduling
 
-To learn more about Next.js, take a look at the following resources:
+### Features
+- **Integrated Tools**: All necessary tools in one place.
+- **AI-Powered Automation**: Enhance efficiency with intelligent automation.
+- **Wellness Features**: Stress management and focus improvement.
+- **Scalable and Adaptable**: Designed to evolve with business needs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Benefits
+- **Increased Productivity**: Achieve a 20-30% boost in task management and collaboration efficiency.
+- **Reduced Burnout**: Wellness tools reduce employee burnout by 15%.
+- **Cost Savings**: Consolidating tools and improving workflows save time and money.
+- **Enhanced Employee Satisfaction**: Improved communication and collaboration lead to better engagement.
+- **Future-Proofed Operations**: Scalable to meet the evolving needs of businesses.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Impact
+- **Improved Organizational Performance**: Enhanced collaboration and productivity.
+- **Employee Well-Being**: Stress management tools promote healthier work-life balance.
 
-## Deploy on Vercel
+### Test User
+- **Name**: John Doe
+- **Role**: Remote Worker
+- **Feedback**: "The platform significantly improved my productivity and reduced stress from managing multiple tools."
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Shaping the Future of Productivity
+We are committed to revolutionizing how remote teams work together and ensuring both organizational and employee success.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![VR Workspace ](./public/1png)
+![RealTime Doc Editor With GenAI ](./public/22.png)
+![Video Call](./public/3.png)
+![Real Time Chat](./public/4.png)
+![AI Prompt Generator](./public/5.png)
+![Dashboard ](./public/6.png)
+
+---
