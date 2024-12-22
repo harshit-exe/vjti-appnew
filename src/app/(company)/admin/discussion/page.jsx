@@ -7,14 +7,14 @@ import React, { useEffect, useState } from 'react'
 const page = () => {
   //  let data =  await checkToken();
   //  console.log(data);
-   const [data, setdata] = useState('')
+  const [data, setdata] = useState('')
 
 
   const fetchdata = async () => {
     let data = await checkToken();
-    console.log(data.user.userName);
+    console.log(data);
 
-    setdata(data?.user?.userName);
+    setdata(data);
   }
 
   useEffect(() => {
@@ -22,11 +22,16 @@ const page = () => {
   }, [])
 
 
-  return (
-    <div className='w-full'>
-      {/* <SlackChat /> */}
-      <ChatsPage data={data} />
-    </div>
+  return (<>
+{/* 
+  <div>
+    {data?.user?.userName}
+    <div>alsidhfli</div>
+  </div> */}
+
+  {data? <ChatsPage data={data?.user?.userName} />:''}
+    {/* <ChatsPage data={data?.user?.userName} /> */}
+  </>
   )
 }
 
