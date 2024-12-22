@@ -53,7 +53,7 @@ Circle.com is a platform that connects organizations with their remote employees
 ### Shaping the Future of Productivity
 We are committed to revolutionizing how remote teams work together and ensuring both organizational and employee success.
 
-![VR Workspace ](./public/1png)
+![VR Workspace ](./public/1.png)
 ![RealTime Doc Editor With GenAI ](./public/22.png)
 ![Video Call](./public/3.png)
 ![Real Time Chat](./public/4.png)
