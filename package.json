@@ -75,6 +75,7 @@
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "tiptap": "^1.32.2",
+    "vue": "^3.5.13",
     "y-indexeddb": "^9.0.12",
     "y-prosemirror": "^1.2.15",
     "y-webrtc": "^10.3.0",
