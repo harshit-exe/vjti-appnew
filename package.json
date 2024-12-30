@@ -39,8 +39,6 @@
     "@tiptap/extension-task-list": "^2.10.4",
     "@tiptap/react": "^2.10.4",
     "@tiptap/starter-kit": "^2.10.4",
-    "@tiptap/vue-3": "^2.10.4",
-    "@vercel/analytics": "^1.4.1",
     "@zegocloud/zego-uikit-prebuilt": "^2.14.0",
     "aframe": "^1.6.0",
     "appwrite": "^16.1.0",
