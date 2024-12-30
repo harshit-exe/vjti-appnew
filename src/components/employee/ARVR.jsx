@@ -25,7 +25,7 @@ export default function ARVR() {
         "Collaborative Whiteboards",
         "Virtual Meeting Rooms",
       ],
-      link: "https://framevr.io/fap-ice-cxs#office-hex-1",
+      link: "fap-ice-cxs#office-hex-1",
     },
     {
       title: "VR Movie Night",
@@ -39,7 +39,7 @@ export default function ARVR() {
         "Multiple Virtual Theaters",
         "Social Viewing",
       ],
-      link: "https://framevr.io/moviehalvjti",
+      link: "moviehalvjti",
     },
     {
       title: "VR GoKart Game",
@@ -48,7 +48,7 @@ export default function ARVR() {
         "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=1000",
       icon: <Users className="h-6 w-6" />,
       features: ["Customizable Kart", "Interactive Games", "Virtual Race"],
-      link: "https://framevr.io/gamevjti",
+      link: "gamevjti",
     },
   ];
 
